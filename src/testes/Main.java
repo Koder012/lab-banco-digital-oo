@@ -1,3 +1,7 @@
+package testes;
+
+import banco.cliente.Cliente;
+import banco.conta.*;
 
 public class Main {
 
