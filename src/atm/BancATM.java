@@ -1,7 +1,6 @@
 package atm;
 
-public abstract class BancATM implements IATM {
+public abstract class BancATM {
 
    
-
 }
