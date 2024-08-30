@@ -2,27 +2,37 @@ package banco;
 
 import java.util.List;
 
-import banco.conta.Conta;
+import banco.cliente.Cliente;
+
 
 public class Banco {
 
 	private String nome;
-	private List<Conta> contas;
+	private String codigoDoBanco;
+	private List<Cliente> clientes;
 
-	public String getNome() {
+	protected String getNome() {
 		return nome;
 	}
 
-	public void setNome(String nome) {
+	protected void setNome(String nome) {
 		this.nome = nome;
 	}
 
-	public List<Conta> getContas() {
-		return contas;
+	protected void setCodigoDoBanco(String codigo){
+		codigoDoBanco = codigo;
 	}
 
-	public void setContas(List<Conta> contas) {
-		this.contas = contas;
+	protected String getCodigoDoBanco(){
+		return codigoDoBanco;
+	}
+
+	protected List<Cliente> getContas() {
+		return clientes;
+	}
+
+	protected void addCliente(Cliente novoCliente) {
+		clientes.add(novoCliente);
 	}
 
 }
