@@ -13,4 +13,7 @@ Criando e implementando uma interface ATM. A interface terá operações semelha
 
 ==== Funcionamento do ATM ====
 
-	Introduzir as coordenadas bancárias do cliente(banco, nº de conta) 
+- Introduzir as coordenadas bancárias do cliente(banco, nº de conta) .
+- O ATM terá as coordenadas bancárias do cliente em causa(nome, saldo, etc).
+- Com base nos dados obtidos o ATM permitirá ao cliente efectuar as operações oferecidas.
+- As alterações serão reflectidas a conta do cliente.

@@ -1,7 +1,7 @@
 package atm;
 import banco.conta.*;
 import banco.cliente.*;
-public interface IATM {
+abstract interface IATM {
     void consultar(Conta conta);
     void levantar(Conta conta, double valor);
     void imprimirExtratoBancario(Cliente cliente);
