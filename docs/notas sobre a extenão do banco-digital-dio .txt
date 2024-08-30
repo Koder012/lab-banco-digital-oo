@@ -1,0 +1,16 @@
+ Contribuindo para o projecto "Banco digital" da dio-java-bootcamp.
+
+Criando e implementando uma interface ATM. A interface terá operações semelhantes ao de um ATM tradicional.
+ - consulta
+ - levantamento
+ - transferência
+ - geração de invoices
+ - pagamento de serviços - pagamento de credito telefonico, pagar televisão, pagamento de internet.
+
+==== Interação banco-ATM ====
+- Um banco tem um ou mais cliente(s).
+- Um cliente tem uma ou mais conta(s). 
+
+==== Funcionamento do ATM ====
+
+	Introduzir as coordenadas bancárias do cliente(banco, nº de conta) 
